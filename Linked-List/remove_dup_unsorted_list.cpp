@@ -60,8 +60,8 @@ List  *rem_dup_unsorted_list(List *head){
         }
 
         // Both are same as (prev = curr) 
-        // curr = prev->next;
-        curr = curr->next;
+        curr = prev->next;
+        // curr = curr->next;
     }
 
     return head;
