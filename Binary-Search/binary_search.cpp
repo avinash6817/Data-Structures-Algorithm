@@ -14,5 +14,6 @@ int search(vector<int>& nums, int target) {
         else
             high = mid-1;
     }
+    
     return -1;
 }
