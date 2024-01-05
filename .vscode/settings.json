@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "*.http": "javascript",
+        "ostream": "cpp"
+    }
+}

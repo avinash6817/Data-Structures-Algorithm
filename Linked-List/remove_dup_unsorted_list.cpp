@@ -46,6 +46,7 @@ List  *rem_dup_unsorted_list(List *head){
 
     List *curr = head;
     m[curr->data] = 1;
+    
     List *prev = curr;
     curr = curr->next;
 
